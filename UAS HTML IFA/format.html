@@ -1,0 +1,217 @@
+<html>
+
+<head>
+  <title>Format Penjualan</title>
+  <style>
+    /* Gaya CSS untuk memperindah tampilan */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #8fbc8f;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #87cefa;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    nav ul li {
+      display: inline-block;
+    }
+
+    nav ul li a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    nav ul li a:hover {
+      background-color: #ddd;
+    }
+
+    .sidebar{
+      width: 200px;
+      height: 100%;
+      background-color: #f4f4f4;
+      float: left;
+      padding-left: 20px;
+    }
+
+    .sidebar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .sidebar li a {
+      display: block;
+      padding: 8px 16px;
+      text-decoration: none;
+      color: #000;  
+    }
+
+    .sidebar li a:hover {
+      background-color: #555;
+      color: #fff;
+    }  
+
+    .content {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-left: 40px;
+    }
+
+    .footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      clear: both;
+    }
+	
+	.form-container {
+      
+      margin: 0 auto;
+    }
+
+    .form-container label,
+    .form-container input {
+      width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+    }
+
+    .form-group {
+  margin-bottom: 20px;
+}
+
+
+    .form-container input[type="submit"]:hover {
+      background-color: #555;
+    }
+
+    .submit-button {
+      margin-top: 30px;
+      margin-bottom: 20px;
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.submit-button:active {
+  background-color: #3e8e41;
+}
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Bite For U</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="indexhome.html">Home</a></li>
+      <li><a href="tentangpenjualan.html">About</a></li>
+      </ul>
+  </nav>
+
+  <div class="sidebar">
+    <h3>Kategori</h3>
+    <ul>
+      <li><a href="varian.html">varian</a></li>
+       <li><a href="kontak.html">kontak</a></li>
+	   <li><a href="Invoice.html">Invoice</a></li>
+  </div>
+
+  <div class="content">
+    <h2>Format penjualan</h2>
+    <div class="form-container">
+      <form>
+     	  <div class="form-group">
+          <label for="nama">Nama</label>
+          <input type="text" id="nama" name="nama" required>
+        </div>
+
+        <div class="form-group">
+          <label for="Alamat">Alamat</label>
+          <input type="text" id="alamat" name="alamat" required>
+        </div>
+		
+		<div class="form-group">
+          <label for="No Telephone">No Telephone</label>
+          <input type="text" id="No Telephone" name="No Telephone" required>
+        </div>
+
+        <div class="form-group">
+          <label for="varian rasa">varian rasa</label>
+          <select id="produk" name="produk" required>
+            <option value="">- Pilih varian rasa -</option>
+            <option value="">Redbean Choco</option>
+            <option value="">Matcha</option>
+          </select>
+        </div>
+		
+		<div class="form-group">
+          <label for="Jumlah">Jumlah</label>
+          <input type="text" id="Jumlah" name="Jumlah" required>
+        </div>
+
+        <div class="form-group"></div>
+        <label for="produk">Metode Pembayaran</label>
+        <select id="produk" name="produk" required>
+          <option value="">- Pilih Pembayaran -</option>
+          <option value="">Transfer Bank</option>
+          <option value="produk1">E-wallet</option>
+          <option value="produk1">Qr Code</option>
+          <option value="produk1">Mobile Banking</option>
+        </select>
+       </div>
+       
+       <button type="submit" class="submit-button">pesan</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer">
+    &copy; ©2024 Ifa Khairunnisa | All Rights Reserved
+  </div>
+</body>
+
+</html>

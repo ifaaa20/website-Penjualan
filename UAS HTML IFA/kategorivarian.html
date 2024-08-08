@@ -1,0 +1,186 @@
+<html>
+
+<head>
+  <title>Varian</title>
+  <style>
+  
+    /* Gaya CSS untuk memperindah tampilan */
+    /* Tambahan gaya CSS khusus untuk halaman produk/jasa */
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #8fbc8f;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #f4f4f4;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    nav ul li {
+      display: inline-block;
+    }
+
+    nav ul li a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    nav ul li a:hover {
+      background-color: #ddd;
+    }
+
+    .sidebar{
+      width: 200px;
+      height: 100%;
+      background-color: #f4f4f4;
+      float: left;
+      padding-left: 20px;
+    }
+
+    .sidebar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .sidebar li a {
+      display: block;
+      padding: 8px 16px;
+      text-decoration: none;
+      color: #000;  
+    }
+
+    .sidebar li a:hover {
+      background-color: #555;
+      color: #fff;
+    }  
+    .content {
+      float: left;
+      width: 76%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-left: 40px;
+    }
+
+    .footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      clear: both;
+    }
+
+    .marquee-container {
+      background-color: #a9a9a9;
+      padding: 10px;
+    }
+
+    .marquee {
+      overflow: hidden;
+      white-space: nowrap;
+      animation: marquee 15s linear infinite;
+    }
+
+    .marquee span {
+      display: inline-block;
+      padding-right: 20px;
+    }
+
+    @keyframes marquee {
+      0% {
+        transform: translateX(100%);
+      }
+
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+ 
+	.product-container {
+      display: flex;
+      flex-wrap: wrap;
+      width:100%;
+      overflow: hidden;
+
+    }
+
+    .product {
+      background-color: #f4f4f4;
+      padding: 10px;
+      width: 30%;
+      text-align: center;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+      margin-right: 20px
+
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Bite For U</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="indexhome.html">Home</a></li>
+      <li><a href="tentangpenjualan.html">About</a></li>
+    </ul>
+  </nav>
+
+  <div class="sidebar">
+    <h3>Kategori</h3>
+    <ul>
+      <li><a href="varian.html">varian</a></li>
+      <li><a href="kontak.html">kontak</a></li>
+	  <li><a href="Invoice.html">Invoice</a></li>
+    </ul>
+  </div>
+
+  <div class="content">
+    <h2><center>Lihat Varian Rasa Disini Lalu Pesan!</center></h2>
+
+    <div class="product-container">
+
+      <div class="product">
+        <h3>Daifuku Mochi</h3>
+        <img src="Redbeanchoco.jpg" style="max-width:
+        100%; height: auto;">
+		<a href="Formatpenjualan.html">pesan</a></li>
+      </div>
+	  
+	  <div class="product">
+        <h3>Daifuku Mochi</h3>
+        <img src="Matcha.jpg" style="max-width:
+        100%; height: auto;">
+		<a href="Formatpenjualan.html">pesan</a></li>
+      </div>
+        
+  </div>
+
+ <div class="footer">
+    &copy; ©2024 Ifa Khairunnisa | All Rights Reserved
+  </div>
+</body>
+
+</html>
